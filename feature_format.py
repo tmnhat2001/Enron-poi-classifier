@@ -1,4 +1,4 @@
-import numpy as np
+import numpy
 
 def featureFormat( dictionary, features, remove_NaN=True, remove_all_zeroes=True, remove_any_zeroes=False, sort_keys = False):
     """ convert dictionary to numpy array of features
